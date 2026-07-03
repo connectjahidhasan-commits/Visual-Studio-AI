@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Studio AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>🤖 Visual Studio AI</h2>
+        </div>
+
+        <button id="newChat">
+            + New Chat
+        </button>
+
+        <div class="history">
+
+            <h4>History</h4>
+
+            <ul id="chatHistory">
+                <!-- History Here -->
+            </ul>
+
+        </div>
+
+    </aside>
+
+    <!-- Main -->
+    <main class="chat-area">
+
+        <header class="topbar">
+
+            <h2>Visual Studio AI</h2>
+
+            <button id="themeBtn">
+                🌙
+            </button>
+
+        </header>
+
+        <!-- Messages -->
+
+        <section id="chatBox">
+
+            <div class="bot message">
+
+                <div class="avatar">
+                    🤖
+                </div>
+
+                <div class="text">
+                    Assalamu Alaikum 👋 <br><br>
+
+                    I'm Visual Studio AI.
+
+                    How can I help you today?
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Input -->
+
+        <footer class="input-area">
+
+            <textarea
+                id="prompt"
+                placeholder="Type your message..."
+            ></textarea>
+
+            <button id="sendBtn">
+
+                Send
+
+            </button>
+
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
